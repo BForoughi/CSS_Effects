@@ -32,14 +32,15 @@ img {
     font-size: 2em;
     font-weight: bold;
     box-shadow: 5px 2px 10px black;
+    bottom: 0px;
+    position: relative;
 }
 
 #click-me:hover{
     background-color: deeppink;
     border-radius: 10px;
-    position: relative;
     bottom: 10px;
-    transition: margin-right 2s ease-in-out;
+    box-shadow: 5px 11px 10px black;
 }
 
 #img-A{
