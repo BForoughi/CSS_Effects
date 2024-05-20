@@ -38,13 +38,28 @@ img {
 }
 
 #img-A{
-    filter: brightness(120%);
+    filter: brightness(100%);
+    transition: 0.5s
 }
 
 #img-B{
-    filter: contrast(140%);
+    filter: contrast(100%);
+    transition: 0.5s;
 }
 
 #img-C{
+    filter: hue-rotate(0deg);
+    transition: 0.5s;
+} 
+
+#img-A:hover{
+    filter: brightness(120%);
+}
+
+#img-B:hover{
+    filter: contrast(140%);
+}
+
+#img-C:hover{
     filter: hue-rotate(120deg);
 }
