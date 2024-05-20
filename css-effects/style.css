@@ -1,5 +1,7 @@
 body { 
     margin: 0; /* Remove the default margin */
+    background: rgb(124,48,255);
+    background: linear-gradient(90deg, rgba(124,48,255,1) 0%, rgba(255,10,159,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 #image-row { 
@@ -22,11 +24,27 @@ img {
     margin: auto;
 
     /* Style the button to look nice */
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border: none;
     padding: 10px;
-
+    border-radius: 10px;
     font-size: 2em;
     font-weight: bold;
+}
+
+#click-me:hover{
+    background-color: deeppink;
+}
+
+#img-A{
+    filter: brightness(120%);
+}
+
+#img-B{
+    filter: contrast(140%);
+}
+
+#img-C{
+    filter: hue-rotate(120deg);
 }
