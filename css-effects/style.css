@@ -28,7 +28,7 @@ img {
     color: black;
     border: none;
     padding: 10px;
-    border-radius: 10px;
+    transition: 0.5s;
     font-size: 2em;
     font-weight: bold;
     box-shadow: 5px 2px 10px black;
@@ -36,6 +36,9 @@ img {
 
 #click-me:hover{
     background-color: deeppink;
+    border-radius: 10px;
+    position: relative;
+    bottom: 10px;
 }
 
 #img-A{
