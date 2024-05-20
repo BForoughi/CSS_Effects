@@ -39,6 +39,7 @@ img {
     border-radius: 10px;
     position: relative;
     bottom: 10px;
+    transition: margin-right 2s ease-in-out;
 }
 
 #img-A{
